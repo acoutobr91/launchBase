@@ -1,6 +1,6 @@
-const nome = 'Carlos'
-const peso = 100
-const altura = 1.88
+const nome = 'Mariana'
+const peso = 70
+const altura = 1.60
 
 const imc = peso / (altura ^ 2)
 

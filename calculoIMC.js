@@ -2,7 +2,7 @@ const nome = 'Carlos'
 const peso = 100
 const altura = 1.88
 
-const imc = peso / (altura ^ 2)
+const imc = peso / (altura ^ 1)
 
 if (imc >= 30) {
     console.log(`${nome}, você está acima do peso.`)

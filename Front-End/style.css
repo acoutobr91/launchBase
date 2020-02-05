@@ -85,9 +85,13 @@ header div {
 
 /*====CARDS====*/
 
-.cards {
+.container {
+    grid-template-rows: 1fr 1fr;
     max-width: 900px;
     margin: 0 auto;
+}
+
+.cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }

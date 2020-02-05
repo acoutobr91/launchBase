@@ -1,0 +1,189 @@
+    @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+    * {
+        margin: 0;
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    header a {
+        text-decoration: none;
+        font-size: 16px;
+        color: #111;
+    }
+    
+    header {
+        padding-top: 30px;
+        margin: 0 279.444px;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+    
+    #logo {
+        width: 90.6px;
+        height: 26.9px;
+        padding-left: 0px;
+    }
+    
+    .menu {
+        font-weight: bold;
+        padding: 0 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        width: 60px;
+    }
+    
+    .wrapper {
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 940px;
+        height: 366px;
+        align-self: auto;
+        background-color: #FBDFDB;
+        border-radius: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #wrapper__info {
+        padding-top: 150px;
+        padding-left: 30px;
+    }
+    
+    #wrapper__info h1 {
+        width: 305px;
+        height: 38px;
+        padding-bottom: 20px;
+        font-size: 32px;
+    }
+    
+    #wrapper__info p {
+        width: 316px;
+        height: 84px;
+        font-size: 18px;
+        opacity: 70%;
+    }
+    
+    #chef img {
+        height: 300px;
+        width: 216px;
+        padding: 65px 0px 0px 50px;
+        bottom: 0px;
+        border: 0px;
+    }
+    
+    #titulo {
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 28px;
+        padding: 20px 0 30px 0px;
+    }
+    
+    .container {
+        grid-template-rows: 1fr 1fr;
+        max-width: 940px;
+        margin: 0 auto;
+    }
+    
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    
+    .card__image-container img {
+        border-radius: 15px;
+        width: 300px;
+    }
+    
+    .card__info {
+        margin-bottom: 20px;
+        padding: 20px;
+        padding-left: 0;
+    }
+    
+    .rodape {
+        margin-top: 51px;
+        padding: 24px;
+        margin-bottom: 0;
+        font-size: 14px;
+        color: #999;
+        background-color: #EEE;
+        text-align: center;
+        bottom: 0;
+    }
+    
+    .about {
+        width: 940px;
+        margin: 0 279.444px;
+    }
+    
+    .about h2,
+    h3,
+    p {
+        padding: 10px 0;
+    }
+    
+    .about h2 {
+        margin-top: 15px;
+    }
+    /*====MODAL OVERLAY====*/
+    
+    .modal-overlay {
+        background-color: rgb(0, 0, 0, 0.7);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    .modal {
+        background-color: white;
+        border-radius: 16px;
+        width: 660px;
+        height: 413px;
+        margin: 25vh auto;
+        position: relative;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    .material-icons {
+        color: black;
+        background-color: rgb(0, 0, 0, 0.2);
+        position: absolute;
+        bottom: 20px;
+        right: 325px;
+        cursor: pointer;
+    }
+    /*====MODAL ACTIVE====*/
+    
+    .modal-overlay.active {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .modal-overlay.active img {
+        width: 95%;
+        height: 45%;
+        position: absolute;
+        top: 5%;
+        left: 2.5%;
+    }
+    
+    .modal__info {
+        text-align: center;
+        font-size: 24px;
+        padding-top: 30px;
+    }
+    
+    .modal__info p {
+        font-size: 18px;
+        color: #7777;
+        padding: 0;
+        bottom: 70px;
+    }

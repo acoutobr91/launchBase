@@ -4,7 +4,8 @@
 <head>
     <title>Foodfy - Receitas</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -18,22 +19,141 @@
             <a href="receitas.html">Receitas</a>
         </div>
     </header>
-    <div class="wrapper">
-        <h1>As melhores receiras</h1>
-        <p>Aprenda a construir os melhores pratos com receitas criadas por profissionais do mundo inteiro</p>
-    </div>
-    <section class="cards">
-        <h2>Mais acessadas</h2>
-
-        <div class="card">
-
-        </div>
-
+    <section class="container">
+        <section class="cards">
+            <!-- Grid de 6 cards -->
+            <div id="burger.png" class="card">
+                <div class="card__image-container">
+                    <img src="/launchBase/DesafioFoodfy/Front-end/site/img/burger.png" alt="mais acessada 1">
+                </div>
+                <div class="card__info">
+                    <h3>Triplo bacon burger</h3>
+                    <p>por Jorge Relato</p>
+                </div>
+            </div>
+            <div id="pizza.png" class="card">
+                <div class="card__image-container">
+                    <img src="/launchBase/DesafioFoodfy/Front-end/site/img/pizza.png" alt="mais acessada 2">
+                </div>
+                <div class="card__info">
+                    <h3>Pizza 4 estações</h3>
+                    <p>por Fabiana Melo</p>
+                </div>
+            </div>
+            <div id="espaguete.png" class="card">
+                <div class="card__image-container">
+                    <img src="/launchBase/DesafioFoodfy/Front-end/site/img/espaguete.png" alt="mais acessada 3">
+                </div>
+                <div class="card__info">
+                    <h3>Espaguete ao alho</h3>
+                    <p>por Júlia kinoto</p>
+                </div>
+            </div>
+            <div id="lasanha.png" class="card">
+                <div class="card__image-container">
+                    <img src="/launchBase/DesafioFoodfy/Front-end/site/img/lasanha.png" alt="mais acessada 4">
+                </div>
+                <div class="card__info">
+                    <h3>Lasanha mac n' cheese</h3>
+                    <p>por Juliano Vieira</p>
+                </div>
+            </div>
+            <div id="doce.png" class="card">
+                <div class="card__image-container">
+                    <img src="/launchBase/DesafioFoodfy/Front-end/site/img/doce.png" alt="mais acessada 5">
+                </div>
+                <div class="card__info">
+                    <h3>Docinhos pão-do-céu</h3>
+                    <p>por Ricardo Golvea</p>
+                </div>
+            </div>
+            <div id="asinhas.png" class="card">
+                <div class="card__image-container">
+                    <img src="/launchBase/DesafioFoodfy/Front-end/site/img/asinhas.png" alt="mais acessada 6">
+                </div>
+                <div class="card__info">
+                    <h3>Asinhas de frango ao barbecue</h3>
+                    <p>por Vania Steroski</p>
+                </div>
+            </div>
+            <div id="burger.png" class="card">
+                <div class="card__image-container">
+                    <img src="/launchBase/DesafioFoodfy/Front-end/site/img/burger.png" alt="mais acessada 1">
+                </div>
+                <div class="card__info">
+                    <h3>Triplo bacon burger</h3>
+                    <p>por Jorge Relato</p>
+                </div>
+            </div>
+            <div id="pizza.png" class="card">
+                <div class="card__image-container">
+                    <img src="/launchBase/DesafioFoodfy/Front-end/site/img/pizza.png" alt="mais acessada 2">
+                </div>
+                <div class="card__info">
+                    <h3>Pizza 4 estações</h3>
+                    <p>por Fabiana Melo</p>
+                </div>
+            </div>
+            <div id="espaguete.png" class="card">
+                <div class="card__image-container">
+                    <img src="/launchBase/DesafioFoodfy/Front-end/site/img/espaguete.png" alt="mais acessada 3">
+                </div>
+                <div class="card__info">
+                    <h3>Espaguete ao alho</h3>
+                    <p>por Júlia kinoto</p>
+                </div>
+            </div>
+            <div id="lasanha.png" class="card">
+                <div class="card__image-container">
+                    <img src="/launchBase/DesafioFoodfy/Front-end/site/img/lasanha.png" alt="mais acessada 4">
+                </div>
+                <div class="card__info">
+                    <h3>Lasanha mac n' cheese</h3>
+                    <p>por Juliano Vieira</p>
+                </div>
+            </div>
+            <div id="doce.png" class="card">
+                <div class="card__image-container">
+                    <img src="/launchBase/DesafioFoodfy/Front-end/site/img/doce.png" alt="mais acessada 5">
+                </div>
+                <div class="card__info">
+                    <h3>Docinhos pão-do-céu</h3>
+                    <p>por Ricardo Golvea</p>
+                </div>
+            </div>
+            <div id="asinhas.png" class="card">
+                <div class="card__image-container">
+                    <img src="/launchBase/DesafioFoodfy/Front-end/site/img/asinhas.png" alt="mais acessada 6">
+                </div>
+                <div class="card__info">
+                    <h3>Asinhas de frango ao barbecue</h3>
+                    <p>por Vania Steroski</p>
+                </div>
+            </div>
+        </section>
     </section>
-
-    <div id="rodape">
+    <div class="rodape">
         <p>Todos direitos reservados, receitas Foodfy.</p>
     </div>
+    <div class="modal-overlay">
+        <div class="modal">
+            <a class="close-modal">
+                <i class="material-icons">close</i>
+            </a>
+            <div class="modal-content">
+                <div>
+                    <div class="modal__image-container">
+                        <img src="" alt="imagem selecionada">
+                    </div>
+                    <div class="modal__info">
+                        <h3 id="titulo"> </h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
